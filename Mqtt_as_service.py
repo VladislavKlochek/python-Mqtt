@@ -41,10 +41,8 @@ def on_message(client, userdata, message):
     if message.topic == "Laptop/camera":
         if msg.lower() == "on" or msg.lower() == "1":
             start_camera()
-            log_to_file("camera_started")
         elif msg.lower() == "off" or msg.lower() == "0":
             stop_camera()
-            log_to_file("camera_stopped")
     elif message.topic == "Laptop/microphone":
         if msg.lower() == "on" or msg.lower() == "1":
             start_microphone()
