@@ -1,0 +1,4 @@
+[2024-01-18 18:26:33] camera_started
+[2024-01-18 18:26:36] camera_stopped
+[2024-01-18 18:26:40] camera_started
+[2024-01-18 18:26:42] camera_stopped
